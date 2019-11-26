@@ -9,8 +9,13 @@ This was a .NET Core example project with unit test originally created for full 
 | /jokes/random | GET | Returns a random joke from the collection |
 
 
-### Future additions might include:
+### Running Unit Tests
 
+To run unit tests build your soltuion and then open the test explorer pane in Visual Studio (ctrl+e, t) or you can find it in the test menu drop down.  Then use the play buttons in test explore to run your tests.
+
+### Future additions:
+
+Just a short list of things that could be added to the project for starters.
 
 - Adding a database connection
 - Adding more request types such as POST and PUT for input of data
