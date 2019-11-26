@@ -30,7 +30,7 @@ namespace ChuckleWebAPI.Controllers
             return Ok(server.GetRandomJoke());
         }
 
-        [HttpGet("ID/{ID}")]
+        [HttpGet("{ID:int}")]
         public IActionResult GetByID(int id)
         {
             var joke = server.GetJokeByID(id);
